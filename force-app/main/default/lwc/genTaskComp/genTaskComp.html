@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+        <template if:true={record}>
+            <template if:true={record.fields.Name}>
+                <lightning-layout>
+                    <lightning-layout-item flexibility="auto" padding="around-small">
+                        <div class="custom-box slds-box slds-p-around_medium slds-text-align_center">
+                            Genix SF Case Study : {record.fields.Name.value}
+                        </div>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </template>
+        </template>
+    </lightning-card>
+</template>

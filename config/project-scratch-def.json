@@ -1,7 +1,12 @@
 {
-  "orgName": "Demo company",
-  "edition": "Developer",
-  "features": [],
+  "orgName": "Genix Task",
+  "edition": "Enterprise",
+  "username": "genix56@task.com",
+  "hasSampleData" :true,
+  "features": ["DevelopmentWave","MultiCurrency", "AuthorApex","SocialCustomerService","Communities",
+            "B2BCommerce","cpq","EinsteinAnalyticsPlus","TerritoryManagement","IOT",
+            "ServiceCloud"],
+
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
@@ -13,6 +18,13 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "iotSettings": {
+      "enableIoT": true,
+      "iotInsights": true
     }
   }
 }
